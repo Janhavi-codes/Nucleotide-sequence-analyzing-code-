@@ -20,7 +20,7 @@ gc_count= sequence.count("G") + sequence.count("C")
 at_count= sequence.count("A")+ sequence.count("T")
 gc_content= gc_count/len(sequence)*100
 at_content = at_count/len(sequence)*100
-#Email your CV to: atharvakakde@genextgenomics.com
+
 print(f"GC Content: {gc_content:.2f}%")
 print(f"AT Content: {at_content:.2f}%")
 # calculate AT/GC ratio
